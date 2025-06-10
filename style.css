@@ -1,0 +1,78 @@
+@charset "UTF-8";
+body{
+    background-color:#F5DEB3 ;
+    width: 100%;
+}
+ 
+main {
+    background-color:#EAE3D2 ;
+    width: 90%;
+    margin: auto;
+    height: max-content;
+    box-shadow: 1px 1px 3px #0000006c;
+    border-radius: 25px;
+    padding: 2.75%;
+}
+
+
+h1{
+    color: VAR(--roxo-nobreza);
+    text-align: center;
+    font-size: 350%;
+    margin: 5px;
+    font-family: var(--fonte-medieval) ;
+    font-weight: bolder;
+    text-shadow: 1px 1px 3px #5D4A6694;
+}
+
+h2{
+    text-align: center;
+    font-size: 325%;
+    font-family: var(--fonte-medieval) ;
+    text-shadow: 1px 2px 3px #0000009c;
+}
+
+h2:hover{
+    color: VAR(--roxo-nobreza);
+    cursor: pointer; /*Muda o cursor para a mãozinha*/
+}
+
+h3{
+    text-align: center;
+    font-size: 300%;
+    font-family: var(--fonte-medieval) ;
+    color: var(--azul-acinzentado);
+}
+
+main p{ /*o espaço é para aplicar nos P que tão no MAIN*/
+    font-size: 18px;
+    text-indent: 10%;
+}
+
+p>a{
+    text-decoration: none;
+    color: #9e6f29;
+}
+
+
+
+
+
+
+@media screen and (min-width: 1024px){
+    main{
+        width: 65%;
+    }
+    h1{
+        font-size: 55px;
+    }
+    h2{
+        font-size: 45px;
+    }
+    h3{
+        font-size: 35px;
+    }
+    main p{
+        font-size: 18px;
+    }
+}
